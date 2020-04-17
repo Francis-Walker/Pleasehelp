@@ -44,6 +44,10 @@ public class Entity {
         this.img = load.getImage();
     }
 
+    public void setImg(Image img){
+        this.img = img;
+    }
+
     public char getFacing() {
         return facing;
     }

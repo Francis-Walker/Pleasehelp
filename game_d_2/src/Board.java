@@ -37,7 +37,9 @@ public class Board extends JPanel implements ActionListener {
         height = dim;
 
         m = new Map(width, height);
+
         p = new Player(width - 2, height - 2);
+
         p.setHealth(numLives);
         b = new Boss(1, 1);
 

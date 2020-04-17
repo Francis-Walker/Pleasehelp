@@ -5,7 +5,7 @@ public class Boss extends Entity {
         this.setFacing('l');
         this.setTileX(tile_x);
         this.setTileY(tile_y);
-        this.setType("boss");
+        this.setType("Boss");
         this.setImg();
         this.setHealth(1);
     }

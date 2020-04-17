@@ -110,7 +110,7 @@ public class Menu extends JFrame implements ActionListener {
 
         }
         if (action.equals("SETTINGS")){
-            JOptionPane.showMessageDialog(null, "Settings Place holder!");
+           // JOptionPane.showMessageDialog(null, "Settings Place holder!");
             //displays settings menu when settings is clicked
             dispose();
             SettingsMenu sm = new SettingsMenu();
@@ -138,7 +138,7 @@ public class Menu extends JFrame implements ActionListener {
         }
     }
 
-    //displays menu item (FOR TESTING)
+    //displays meun
     public static void main(String [] args){
         new Menu("normal","medium");
     }

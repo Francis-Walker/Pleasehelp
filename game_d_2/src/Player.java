@@ -8,7 +8,7 @@ public class Player extends Entity {
         this.setFacing('l');
         this.setTileX(tile_x);
         this.setTileY(tile_y);
-        this.setType("Player1");
+        this.setType("player1");
         this.setImg();
         this.setHealth(5);
     }
